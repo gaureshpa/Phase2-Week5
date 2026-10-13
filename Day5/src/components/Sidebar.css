@@ -1,0 +1,29 @@
+.sidebar {
+  display: block;
+  width: 220px;
+  min-width: 220px;
+  flex: 0 0 220px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 60px);
+  padding: 20px;
+  background-color: lightblue;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 10px;
+  color: #222;
+  text-decoration: none;
+}
+
+.sidebar nav a.active {
+  background-color: #bfdbfe;
+  font-weight: bold;
+}
