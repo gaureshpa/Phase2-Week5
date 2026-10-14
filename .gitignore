@@ -36,3 +36,10 @@ pnpm-debug.log*
 # Diagnostic reports and system files
 .DS_Store
 Thumbs.db
+
+# Prisma filler folders
+
+.agents/
+.claude/
+.cursor/
+.devin/
